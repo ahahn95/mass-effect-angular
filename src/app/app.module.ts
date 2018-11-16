@@ -6,15 +6,9 @@ import { SquadSelectorComponent } from './squad-selector/squad-selector.componen
 import { SquadMemberCompComponent } from './squad-member-comp/squad-member-comp.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SquadSelectorComponent,
-    SquadMemberCompComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, SquadSelectorComponent, SquadMemberCompComponent],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
